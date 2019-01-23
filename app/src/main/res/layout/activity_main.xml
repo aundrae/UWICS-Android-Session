@@ -27,7 +27,8 @@
         android:layout_height="wrap_content"
         android:text="Add Task"
         android:layout_below="@id/task"
-        android:id="@+id/add_task"/>
+        android:id="@+id/add_task"
+        android:onClick="addTask"/>
 
     <ListView
         android:id="@+id/list"
